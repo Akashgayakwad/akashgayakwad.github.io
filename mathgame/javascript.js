@@ -70,8 +70,8 @@ function hide(id){
     document.getElementById(id).style.display = "none";
 }
 function generateQA(){
-    var x = 1+ Math.round(19*Math.random());
-    var y = 1+ Math.round(19*Math.random());
+    var x = 10+ Math.round(19*Math.random());
+    var y = 10+ Math.round(19*Math.random());
     correctanswer = x*y;
     document.getElementById("question").innerHTML = x + "x" + y;
     var correctposition = 1+Math.round(3*Math.random());
@@ -82,7 +82,7 @@ function generateQA(){
         if(i != correctposition) {
             var wronganswer;
             do{
-                wronganswer = (1+ Math.round(9*Math.random()))*(1+ Math.round(9*Math.random())); //a wrong answer
+                wronganswer = (10+ Math.round(19*Math.random()))*(10+ Math.round(19*Math.random())); //a wrong answer
             }while(answers.indexOf(wronganswer)>-1)
             document.getElementById("box"+i).innerHTML = wronganswer;
             answers.push(wronganswer);
