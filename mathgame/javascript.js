@@ -70,8 +70,8 @@ function hide(id){
     document.getElementById(id).style.display = "none";
 }
 function generateQA(){
-    var x = 1+ Math.round(9*Math.random());
-    var y = 1+ Math.round(9*Math.random());
+    var x = 1+ Math.round(19*Math.random());
+    var y = 1+ Math.round(19*Math.random());
     correctanswer = x*y;
     document.getElementById("question").innerHTML = x + "x" + y;
     var correctposition = 1+Math.round(3*Math.random());
