@@ -7,7 +7,7 @@ html{
     background: -ms-radial-gradient(circle,#fff,black);
 }
 #container{
-    height:400px;
+    height:450px;
     width: 550px;
     background: #9DD2EA;
     margin: 100px auto;
@@ -118,7 +118,7 @@ html{
 }   
 #startreset{
     width: 80px;
-    background: rgba(255, 255, 255,0.5);
+    background: rgb(131, 211, 33);
     margin: 0px auto;
     padding: 10px;
     border-radius: 3px;
