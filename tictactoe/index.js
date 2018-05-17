@@ -19,6 +19,7 @@ $(function()
     
     $("#instruct").click(function(){
         $("#instructions").toggle();
+        
     });
     
     

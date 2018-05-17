@@ -24,7 +24,7 @@ button{
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 15%;
     text-align: center;
-    width: 15%;
+    width: auto;
 }
 .score2{
     color: rgb(221,116,66);
@@ -36,7 +36,32 @@ button{
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 15%;
     text-align: center;
-    width: 15%;
+    width: auto;
+}
+
+@media only screen and (max-width:600px){
+
+    #instructions{
+        position: absolute;
+        top:0%;
+        left:0%;
+        border: 3px yellow groove;
+        background-color: blanchedalmond;
+        display: none;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
+#instructions{
+    position: absolute;
+    top:0%;
+    left:0%;
+    border: 3px yellow groove;
+    background-color: blanchedalmond;
+    display: none;
+    width: 100%;
+    z-index: 2;
 }
 .gameboard{
     width: auto;
@@ -46,17 +71,15 @@ button{
     margin: 10px;
 }
 .gamecontainer{
-    margin-top: 135px;
-    margin-left: 90px;
-    margin-right: 90px;
-    border: 2px yellow solid;
+    margin-top: 100px;
     border-radius: 5%;
 }
 .entries{
-    height: 110px;
+    padding-top: 20%;
+    padding-bottom: 80%;
+    height:0px;
     font-size: 60px;
     text-align: center;
-    line-height: 120px;
 }
 #entry1{
 border-right: 7px black solid;
