@@ -1,0 +1,89 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+        <title>TIC TAC TOE</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+       <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8">
+                    <div class="header"><strong><u>WELCOME TO TIC TAC TOE</u></strong></div>
+                        <div class="scoreboard" style="position: relative">
+                            <div class="score1" style="position: absolute;top: 10px;left: 20px;">
+                                <span style="font-size: 2vw;">score</span><br>
+                                <span class="OX" style="font-size: 2.5vw;"><strong>X:</strong></span>
+                                <span id="scoreX" style="font-size: 2vw;">0</span>
+                            </div>
+                                <center>
+                                <div id="winbox" class="alert alert-success" style="position: absolute;top:35%;left: 34%;display: none;">
+                                <h1>
+                                    <span id="winner"><!-- O or X--></span>
+                                    <span id="status"><!-- wins or Draw--></span>
+                                </h1>
+                                <button id="nextgame" class="btn btn-lg btn-info">Next Game</button>    
+                                </div>    
+                            </center>
+                            <div class="score2" style="position: absolute;top: 10px;right: 20px;">
+                                <span style="font-size: 2vw;">score</span><br>
+                                <span class="OX" style="font-size: 2.5vw;"><strong>O:</strong></span>
+                                <span id="scoreO" style="font-size: 2vw;">0</span>
+                            </div>
+                        </div>
+                        <div class="gamecontainer" style="position: relative">
+                        <!--<div id="instruction" class="alert alert-info" style="position: absolute;top=50%;left: 30%">
+                            <form id="markerform">
+                                <h2>Player 1</h2>
+                                <h2>Please select your marker</h2>
+                                <div class="radio">
+                                <label><input class="marker1" type="radio" name="marker1" value="O">&nbsp;&nbsp;O</label>
+                                <label style="float: right;"><input class="marker1" type="radio" name="marker1" value="X">&nbsp;&nbsp;X</label>
+                                </div>
+                                <center>
+                                <button type="submit" class="btn btn-lg btn-info">Proceed to game</button>
+                                </center>
+                            </form>
+                        </div>-->
+                        <div id="instructions" style="position: absolute;top:0%; left:0%; border: 3px yellow groove;background-color: blanchedalmond;display: none; width: 100%">
+                        <ul class="list-group">
+                        <li class="list-group-item" style="text-align: center"><h3><strong><em><u>INSTRUCTIONS</u></em></strong></h3></li>
+                        <li class="list-group-item">1.Player O will mark first in 1st Round.</li>
+                        <li class="list-group-item">2.Each Player will get a chance to mark first alternatively.</li>
+                        <li class="list-group-item">3.Winner of each round will get a reward of +2 points.</li>
+                        <li class="list-group-item">4.Loser of each round will bear a penalty of -1 point.</li>
+                        <li class="list-group-item">5.In case of Draw both Players will get +1 points each.</li>
+                        <li class="list-group-item">6.Player with more no. of points will be the winner.</li>
+                        </ul>
+                        <h2 style="text-align: center">Enjoy!!</h2>
+                        </div>
+                        <div class="gameboard">
+                            <div id="entry1" class="entries"></div>
+                            <div id="entry2" class="entries"></div>
+                            <div id="entry3" class="entries"></div>
+                            <div id="entry4" class="entries"></div>
+                            <div id="entry5" class="entries"></div>
+                            <div id="entry6" class="entries"></div>
+                            <div id="entry7" class="entries"></div>
+                            <div id="entry8" class="entries"></div>
+                            <div id="entry9" class="entries"></div>
+                        </div>
+                            <button id="instruct" class="btn btn-info" style="position: absolute;top: 91%;left: 5%;">INSTRUCTIONS</button>
+                        <center>
+                              <button id="startreset" class="btn btn-lg btn-success">Start Game</button>    
+                        </center>
+                       
+                    </div>
+            </div>   
+        </div> 
+       </div>
+    <footer>
+    <marquee style="background-color: rgba(113,179,148,.5)"><h5><strong>Developed by Akash Gayakwad(akashgayakwad123@gmail.com)</strong></h5></marquee>
+    </footer>
+    </body>
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</html>

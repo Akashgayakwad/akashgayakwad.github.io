@@ -1,0 +1,99 @@
+body{font-family: fantasy , serif;
+     height: auto;
+}
+.container-fluid{
+    background-color: rgba(0,0,0,0.2);
+}
+.header{
+    font-weight: 300;
+    color: blueviolet;
+    text-align: center;
+    text-decoration-color: blueviolet;
+    font-size: 3vw;
+}
+.score1{
+    color: rgb(221,116,66);
+    background: rgba(122,245,132,0.6);
+    padding: 5px;
+    border: 2px solid rgb(7,90,14);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 15%;
+    text-align: center;
+    width: 12vw;
+}
+.score2{
+    color: rgb(221,116,66);
+    background: rgba(122,245,132,0.6);
+    padding: 5px;
+    border: 2px solid rgb(7,90,14);
+    border-top-left-radius: 15%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 15%;
+    text-align: center;
+    width: 12vw;
+}
+.gameboard{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background: linear-gradient(rgba(208,181,140,1),rgba(221,202,172,1));
+    margin: 10px;
+}
+.gamecontainer{
+    margin-top: 135px;
+    margin-left: 90px;
+    margin-right: 90px;
+    border: 2px yellow solid;
+    border-radius: 5%;
+}
+.entries{
+    height: 9vw;
+    font-size: 4vw;
+    text-align: center;
+    line-height: 10vw;
+}
+#entry1{
+border-right: 0.4vw black solid;
+border-bottom: 0.4vw black solid;
+}
+#entry2{
+border-right: 0.4vw black solid;
+border-bottom: 0.4vw black solid;
+border-left: 0.4vw black solid;
+}
+#entry3{
+border-bottom: 0.4vw black solid;
+border-left: 0.4vw black solid;
+}
+#entry4{
+border-right: 0.4vw black solid;
+border-bottom: 0.4vw black solid;
+border-top: 0.4vw black solid;
+}
+#entry5{
+border-right: 0.4vw black solid;
+border-bottom: 0.4vw black solid;
+border-top: 0.4vw black solid;
+border-left: 0.4vw black solid;
+}
+#entry6{
+border-bottom: 0.4vw black solid;
+border-top: 0.4vw black solid;
+border-left: 0.4vw black solid;
+}
+#entry7{
+border-right: 0.4vw black solid;
+border-top: 0.4vw black solid;
+}
+#entry8{
+border-right: 0.4vw black solid;
+border-top: 0.4vw black solid;
+border-left: 0.4vw black solid;
+}
+#entry9{
+border-top: 0.4vw black solid;
+border-left: 0.4vw black solid;
+}
