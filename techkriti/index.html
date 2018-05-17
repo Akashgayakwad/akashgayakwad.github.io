@@ -1,0 +1,153 @@
+<!doctype HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
+    <title>TechKriti'18</title>
+    <style>
+        .wrapper{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-gap: 16px;
+            margin-top: 2%;
+            margin-left: 10%;
+            margin-right: 25%;
+        }
+        
+        .wrapper div{
+            position: relative;
+        }
+        .nested{
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+        }
+        body{
+            margin-left: 0px;
+            padding-left: 0px;
+            margin: 0%;
+            position: relative;
+            background: url(alpha-bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #fblogin a{
+            color: white;
+            text-decoration: none;
+        }
+        #fblogin{
+            background-color:mediumblue;
+            color: white;
+            padding: 5px 20px;
+            position: absolute;
+            left: 85%;
+        }
+        h2{ color: white;
+            font-size: 1.8vw;
+            position: absolute;bottom: 0px;left: 10px;
+        }
+        h3{ color: white;
+            font-size: 1.5vw;
+            position: absolute;bottom: 0px;left: 10px;
+        }
+        #competitions,#technocruise,#hospitality,#workshops,#shows,#talks,#merchandise,#exhibitions,#megaworld,#tosc{
+            -webkit-transition: width 3s linear;
+            -moz-transition: width 3s linear;
+            -o-transition: width 3s linear;
+            -ms-transition: width 3s linear;
+            transition: width 3s linear;
+            -webkit-transition: height 3s linear;
+            -moz-transition: height 3s linear;
+            -o-transition: height 3s linear;
+            -ms-transition: height 3s linear;
+            transition: height 3s linear;
+        }
+        #competitions:hover,#technocruise:hover,#hospitality:hover,#workshops:hover,#shows:hover,#talks:hover,#merchandise:hover,#exhibitions:hover,#megaworld:hover,#tosc:hover{
+            width: 101%;
+            height: 101%;
+        }
+        #socialbuttons a img{
+            margin: 10%;
+        }
+        #schedule{
+            margin-top: 15%;
+        }
+        #schedule>a{
+            color: white;
+            text-decoration: none;
+        }
+        #l3{
+            background: url(header/l3.png) center center no-repeat contain;
+            width: 80px;
+            height: 40px;
+        }
+        
+       
+    </style>
+    </head>
+    <body>
+    <div>
+        <center>
+           <div>
+              <!--  <a href="index.html" style="position: absolute;top: 200px;left: 280px;"><span style="text-align: left;background: url(header/l1.png);height: 80px;width: 300px;padding: 50px 80px;">Competitions</span></a>
+                <a href="index.html"><img src="header/l2.png" width="150px" height="80px"></a>
+                <div id="l3"><a>Competitions</a></div>-->
+                <img src="header/centre.png">
+            <!--    <a href="index.html"><img src="header/r3.png" width="150px" height="80px"></a>
+                <a href="index.html"><img src="header/r2.png" width="150px" height="80px"></a>
+                <a href="index.html"><img src="header/r1.png" width="150px" height="80px"></a>--> 
+           </div>
+        </center>
+        <div id="fblogin"><a href="#">Sign-in with Facebook</a></div>
+            <div id="schedule" style="float: left; transform: rotate(90deg); border: 2px white solid;border-bottom-style: none;border-top-left-radius: 25%;border-top-right-radius: 25%;padding:5px 20px"><a href="schedule.pdf">Schedule</a></div>
+            <div id="socialbuttons" style="float: right;margin-top: 10%;margin-right: 6%">
+                <a href="#"><img src="socialicons/facebook.png" width="50px" height="auto"></a><br>
+                <a href="#"><img src="socialicons/instagram.png" width="50px" height="auto"></a><br>
+                <a href="#"><img src="socialicons/twitter.png" width="50px" height="auto"></a><br>
+                <a href="#"><img src="socialicons/youtube.png" width="50px" height="auto"></a><br>
+            </div>
+        <center>
+            <div class="wrapper">
+                <div id="competitions"><a><img src="tiles/competitions.jpg" width="100%" height="auto"><h2>Competitions</h2></a>
+                </div>
+                    <div class="nested">
+                        <div id="technocruise">
+                        <a><img src="tiles/technocruise.jpg" width="98%" height="auto">
+                        <h3>Technocruise</h3></a>
+                    </div>
+                    <div id="hospitality">
+                        <a><img src="tiles/hospitality.jpg" width="98%" height="auto">
+                        <h3>Hospitality</h3></a>
+                    </div>
+                    </div>
+                <div id="workshops"><a><img src="tiles/workshops.jpg" width="100%" height="auto">
+                    <h2>Workshops</h2></a>
+                </div>
+                    <div class="nested">
+                        <div id="shows">
+                        <a><img src="tiles/shows.jpg" width="98%" height="auto">
+                        <h3>Shows</h3></a>
+                    </div>
+                    <div id="talks">
+                        <a><img src="tiles/talks.jpg" width="98%" height="auto">
+                        <h3>Talks</h3></a>
+                    </div>
+                    </div>
+                <div id="merchandise"><a><img src="tiles/merchandise.jpg" width="100%" height="auto">
+                    <h3>Merchandise</h3></a>
+                </div>
+                <div id="exhibitions"><a><img src="tiles/exhibitions.jpg" width="100%" height="auto">
+                    <h3>Exhibitions</h3></a>
+                </div>
+                <div id="megaworld"><a><img src="tiles/funt.jpg" width="100%" height="auto">
+                    <h3>Megaworld &amp; Fun-T</h3></a>
+                </div>
+                <div id="tosc"><a><img src="tiles/tosc.jpg" width="100%" height="auto">
+                    <h3>TOSC</h3></a>
+                </div>
+            </div>
+        </center>
+    </div>
+    </body>
+</html>
