@@ -1,0 +1,78 @@
+.wrapper{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-gap: 1%;
+            margin-top: 2%;
+            margin-left: 10%;
+            margin-right: 25%;
+        }
+        
+        .wrapper div{
+            position: relative;
+        }
+        .nested{
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+        }
+        body{
+            margin-left: 0px;
+            padding-left: 0px;
+            margin: 0%;
+            position: relative;
+            background: url(alpha-bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #fblogin a{
+            color: white;
+            text-decoration: none;
+        }
+        #fblogin{
+            background-color:mediumblue;
+            color: white;
+            padding: 5px 20px;
+            position: absolute;
+            left: 85%;
+        }
+        h2{ color: white;
+            font-size: 1.8vw;
+            position: absolute;bottom: 0px;left: 10px;
+        }
+        h3{ color: white;
+            font-size: 1.5vw;
+            position: absolute;bottom: 0px;left: 10px;
+        }
+        #competitions,#technocruise,#hospitality,#workshops,#shows,#talks,#merchandise,#exhibitions,#megaworld,#tosc{
+            -webkit-transition: width 3s linear;
+            -moz-transition: width 3s linear;
+            -o-transition: width 3s linear;
+            -ms-transition: width 3s linear;
+            transition: width 3s linear;
+            -webkit-transition: height 3s linear;
+            -moz-transition: height 3s linear;
+            -o-transition: height 3s linear;
+            -ms-transition: height 3s linear;
+            transition: height 3s linear;
+        }
+        #competitions:hover,#technocruise:hover,#hospitality:hover,#workshops:hover,#shows:hover,#talks:hover,#merchandise:hover,#exhibitions:hover,#megaworld:hover,#tosc:hover{
+            width: 101%;
+            height: 101%;
+        }
+        #socialbuttons a img{
+            margin: 10%;
+        }
+        #schedule{
+            margin-top: 15%;
+        }
+        #schedule>a{
+            color: white;
+            text-decoration: none;
+        }
+        a:active{
+                color: blue;
+            
+        }
+        
+       

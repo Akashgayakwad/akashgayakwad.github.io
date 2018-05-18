@@ -4,99 +4,98 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
     <title>TechKriti'18</title>
+        <link rel="stylesheet" href="style.css">
     <style>
-        .wrapper{
-            display: grid;
-            grid-template-columns: repeat(4,1fr);
-            grid-gap: 16px;
-            margin-top: 2%;
-            margin-left: 10%;
-            margin-right: 25%;
-        }
-        
-        .wrapper div{
-            position: relative;
-        }
-        .nested{
-            display: grid;
-            grid-template-columns: 1fr;
-            align-items: center;
-        }
-        body{
-            margin-left: 0px;
-            padding-left: 0px;
-            margin: 0%;
-            position: relative;
-            background: url(alpha-bg.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-        }
-        #fblogin a{
-            color: white;
-            text-decoration: none;
-        }
-        #fblogin{
-            background-color:mediumblue;
-            color: white;
-            padding: 5px 20px;
-            position: absolute;
-            left: 85%;
-        }
-        h2{ color: white;
-            font-size: 1.8vw;
-            position: absolute;bottom: 0px;left: 10px;
-        }
-        h3{ color: white;
-            font-size: 1.5vw;
-            position: absolute;bottom: 0px;left: 10px;
-        }
-        #competitions,#technocruise,#hospitality,#workshops,#shows,#talks,#merchandise,#exhibitions,#megaworld,#tosc{
-            -webkit-transition: width 3s linear;
-            -moz-transition: width 3s linear;
-            -o-transition: width 3s linear;
-            -ms-transition: width 3s linear;
-            transition: width 3s linear;
-            -webkit-transition: height 3s linear;
-            -moz-transition: height 3s linear;
-            -o-transition: height 3s linear;
-            -ms-transition: height 3s linear;
-            transition: height 3s linear;
-        }
-        #competitions:hover,#technocruise:hover,#hospitality:hover,#workshops:hover,#shows:hover,#talks:hover,#merchandise:hover,#exhibitions:hover,#megaworld:hover,#tosc:hover{
-            width: 101%;
-            height: 101%;
-        }
-        #socialbuttons a img{
-            margin: 10%;
-        }
-        #schedule{
-            margin-top: 15%;
-        }
-        #schedule>a{
-            color: white;
-            text-decoration: none;
-        }
-        #l3{
-            background: url(header/l3.png) center center no-repeat contain;
-            width: 80px;
-            height: 40px;
-        }
-        
-       
     </style>
     </head>
     <body>
     <div>
         <center>
-           <div>
-              <!--  <a href="index.html" style="position: absolute;top: 200px;left: 280px;"><span style="text-align: left;background: url(header/l1.png);height: 80px;width: 300px;padding: 50px 80px;">Competitions</span></a>
-                <a href="index.html"><img src="header/l2.png" width="150px" height="80px"></a>
-                <div id="l3"><a>Competitions</a></div>-->
-                <img src="header/centre.png">
-            <!--    <a href="index.html"><img src="header/r3.png" width="150px" height="80px"></a>
-                <a href="index.html"><img src="header/r2.png" width="150px" height="80px"></a>
-                <a href="index.html"><img src="header/r1.png" width="150px" height="80px"></a>--> 
+           <div id="navigationpanel">
+                
+               
+               <div id="l3" style="position: absolute;top: 0%;left: 0%;width: 22.00%">
+                    <div style="width: 100%;height: 100%;position:relative">
+                        <a href="#">
+                        <span id="text" style="color: white;white;font-size: 14px;position: absolute;top: 40%;
+                        left:25%;z-index: 999;">
+                            About
+                        </span>
+                        <img src="header/l3.png"style="width: 100%;height: 60px;">
+                    </a>
+                    </div>
+               </div>
+               
+               
+               <div id="l2" style="position: absolute;top: 0%;left: 10%;width: 22.59%">
+                    <div style="width: 100%;height: 100%;position: relative">
+                        <a href="#">
+                        <span id="text" style="color: white;font-size: 14px;position: absolute;top: 40%;
+                        left:20%;z-index: 999;">
+                            Hospitality
+                        </span>
+                        <img src="header/l2.png" style="width: 100%;height: 65px">
+                   </a>
+                    </div>
+               </div>
+               
+               
+               <div id="l1" style="position: absolute;top: 0%;left: 20%;width: 23.32%">
+                    <div style="width: 100%;height: 100%;position: relative">
+                        <a href="#"><span id="text" style="color: white;font-size: 14px;position: absolute;top: 35%;
+                        left: 20%;z-index: 999;">
+                        Competitions
+                        </span>
+                        <img src="header/l1.png" style="width: 100%;height: 85px">
+                   </a>
+                    </div>
+               </div>
+               
+               
+               <div id="r3" style="position: absolute;top: 0%;left: 78%;width: 22%">
+                    <div>
+                        <a href="#">
+                        <span id="text" style="color:white;font-size: 14px;position: absolute;top: 40%;
+                        left: 55%;z-index: 999;">
+                        Contact Us
+                        </span>
+                        <img src="header/r3.png" style="width: 100%;height: 60px;">
+                        </a>
+                    </div>
+               </div>
+               
+               
+               <div id="r2" style="position: absolute;top: 0%;left: 68%;width: 22.88%">
+                    <div style="width: 100%;height: 100%;position: relative">
+                        <a href="#">
+                        <span id="text" style="color: white;font-size: 14px;position: absolute;top: 35%;
+                        left: 60%;z-index: 999;">
+                            Sponsors
+                        </span>
+                        <img src="header/r2.png" style="width:100%;height: 70px;">
+                   </a>
+                    </div>
+               </div>
+               
+               
+               <div id="r1" style="position: absolute;top: 0%;left: 58%;width: 23.32%">
+                    <div style="width: 100%;height: 100%;position: relative">
+                        <a href="#">
+                            <span id="text" style="color: white;font-size: 14px;position: absolute;top: 35%;
+                        left: 50%;z-index: 999;">
+                                Workshops
+                            </span>
+                            <img src="header/r1.png" style="z-index: 99;width: 100%;height: 85px;">
+                        </a>
+                    </div>
+               </div>
+               <center>
+                   <div id="center" style="position: relative;width: 46.5%;">
+                        <a>
+                            <img src="header/centre.png" style="width: 100%;height: 80px">
+                       </a>
+                   </div>
+               </center>
            </div>
         </center>
         <div id="fblogin"><a href="#">Sign-in with Facebook</a></div>
