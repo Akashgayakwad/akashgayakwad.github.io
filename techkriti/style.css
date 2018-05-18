@@ -28,8 +28,8 @@
 #toggle{
     width: 60px;
     border: none;
-    font-size: 40px;
-    line-height: 8px;
+    font-size: 20px;
+    line-height: 4px;
     color: white;
     z-index: 9999;
     position: absolute;
