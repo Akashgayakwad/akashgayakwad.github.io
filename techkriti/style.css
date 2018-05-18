@@ -1,3 +1,193 @@
+@media (max-width:800px){
+   
+    #center{
+        position: relative;
+        width: 100% !important;
+    }
+    #l1,#l2,#l3,#r1,#r2,#r3{
+        display: none;
+    }
+     
+    #fblogin{
+        position: static !important;
+        width: 150px;
+    }
+    #socialbuttons{
+        position: static !important;
+        grid-template-columns: repeat(4,1fr) !important;
+        margin: 0px 50%;
+    }
+}
+    
+#l3{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 22.00%;
+}
+#l3 div{
+        width: 100%;
+        height: 100%;
+        position:relative;
+}
+#l3 span{
+        color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 40%;
+        left:25%;
+        z-index: 999;
+}
+#l3 img{
+        width: 100%;
+        height: 60px;
+}
+#l2{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 22.59%;
+}
+#l2 div{
+        width: 100%;
+        height: 100%;
+        position: relative;
+}
+#l2 span{
+         color: white;
+        font-size: 14px;
+        position: absolute;
+        top: 40%;
+        left:20%;
+        z-index: 999;
+}
+#l2 img{
+        width: 100%;
+        height: 65px;
+}
+#l1{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    width: 23.32%;   
+}
+#l1 div{
+        width: 100%;
+        height: 100%;
+        position: relative;
+}
+#l1 span{
+         color: white;
+         font-size: 14px;
+         position: absolute;
+         top: 35%;
+         left: 20%;
+         z-index: 999;
+}
+#l1 img{
+        width: 100%;
+        height: 85px;
+}
+
+#r3{
+    position: absolute;
+    top: 0%;
+    left: 78%;
+    width: 22%;
+}
+#r3 div{
+        width: 100%;
+        height: 100%;
+        position: relative;
+}
+#r3 span{
+         color:white;
+         font-size: 14px;
+         position: absolute;
+         top: 40%;
+         left: 53%;
+         z-index: 999;
+}
+#r3 img{
+        width: 100%;
+        height: 60px;
+}
+#r2{
+    position: absolute;
+    top: 0%;
+    left: 68%;
+    width: 22.88%;
+}
+#r2 div{
+        width: 100%;
+        height: 100%;
+        position: relative;
+}
+#r2 span{
+         color: white;
+         font-size: 14px;
+         position: absolute;
+         top: 35%;
+         left: 60%;
+         z-index: 999;
+}
+#r2 img{
+        width:100%;
+        height: 65px;
+}
+#r1{
+    position: absolute;
+    top: 0%;
+    left: 58%;
+    width: 23.32%;
+}
+#r1 div{
+        width: 100%;
+        height: 100%;
+        position: relative;
+}
+#r1 span{
+         color: white;
+         font-size: 14px;
+         position: absolute;
+         top: 35%;
+         left: 50%;
+         z-index: 999;
+}
+#r1 img{
+        width: 100%;
+        height: 85px;
+}
+#center{
+        position: relative;
+        width: 46.5%;
+}
+#center img{
+            width: 100%;
+            height: 80px;
+}
+#fblogin{
+         background-color:mediumblue;
+         padding: 5px 20px;
+         position: absolute;
+         right: 0%;
+         z-index: 4;
+}
+#fblogin a{
+          color: white;
+          text-decoration: none;
+}
+        
+#schedule{
+          float: left;
+          transform: rotate(90deg);
+          border: 2px white solid;
+          border-bottom-style: none;
+          border-top-left-radius: 25%;
+          border-top-right-radius: 25%;
+          padding:5px 20px;   
+}
+
 .wrapper{
             display: grid;
             grid-template-columns: repeat(4,1fr);
@@ -25,17 +215,7 @@
             background-size: cover;
             background-attachment: fixed;
         }
-        #fblogin a{
-            color: white;
-            text-decoration: none;
-        }
-        #fblogin{
-            background-color:mediumblue;
-            color: white;
-            padding: 5px 20px;
-            position: absolute;
-            left: 85%;
-        }
+        
         h2{ color: white;
             font-size: 1.8vw;
             position: absolute;bottom: 0px;left: 10px;
@@ -76,3 +256,15 @@
         }
         
        
+#socialbuttons{
+                display: grid;
+                grid-template-columns: 1fr;
+                float: right;
+                /*margin-top: 10%;*/
+                /*margin-right: 6%;*/
+                position: relative;
+                bottom: 80%;
+}
+.btn img{
+              width: 50px;
+}
