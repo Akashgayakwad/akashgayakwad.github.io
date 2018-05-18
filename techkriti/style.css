@@ -28,8 +28,8 @@
 #navmenu{
     position: absolute;
     top: 0%;
-    left: 0%;
-    width: 100%;
+    left: -2%;
+    width: 102%;
     height: 130%;
     color: white;
     background: rgba(0,0,0,0.8);
@@ -267,15 +267,19 @@
             align-items: center;
         }
         body{
+            height: 100%;
             margin-left: 0px;
             padding-left: 0px;
             margin: 0%;
             position: relative;
             background: url(alpha-bg.jpg);
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size:cover;
             background-attachment: fixed;
         }
+html{
+    height: 100%;
+}
         
         h2{ color: white;
             font-size: 1.8vw;
