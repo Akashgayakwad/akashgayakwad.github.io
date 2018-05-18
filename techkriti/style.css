@@ -15,25 +15,24 @@
     #socialbuttons{
         position: static !important;
         grid-template-columns: repeat(4,1fr) !important;
-        margin: 0px 50%;
+        margin: 0px 30%;
     }
     #toggle{
         display: block !important; 
     }
     .wrapper{
-        margin-left: 5% !important;
+        margin-left: 0% !important;
         margin-right: 0% !important;
     }
 }
 #toggle{
-    width: 60px;
     border: none;
     font-size: 20px;
     line-height: 4px;
     color: white;
     z-index: 9999;
     position: absolute;
-    top: 10%;
+    top: 50px;
     left: 5%;
     display: none;
     background: transparent;
@@ -208,7 +207,7 @@
           border-top-right-radius: 25%;
           padding:5px 20px; 
           left: -35px;
-          top: 35%;
+          top: 200px;
           z-index: 99;
           background: black;
 }
@@ -281,7 +280,6 @@
 #socialbuttons{
                 display: grid;
                 grid-template-columns: 1fr;
-                float: right;
                 /*margin-top: 10%;*/
                 /*margin-right: 6%;*/
                 position: relative;
