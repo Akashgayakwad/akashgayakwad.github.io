@@ -31,31 +31,31 @@
 }
 @media (min-width:961px){
     #l3{
-        animation: l3anim 3s ease;
+        animation: l3anim 4s ease;
     }
     #l2{
-        animation: l2anim 2.5s ease;
+        animation: l2anim 3.5s ease;
     }
     #l1{
-        animation: l1anim 2s ease;
+        animation: l1anim 3s ease;
     }
     #r3{
-        animation: r3anim 3s ease;
+        animation: r3anim 4s ease;
     }
     #r2{
-        animation: r2anim 2.5s ease;
+        animation: r2anim 3.5s ease;
     }
     #r1{
-        animation: r1anim 2s ease;
+        animation: r1anim 3s ease;
     }
     #c{
-        animation: canim 1s ease;
+        animation: canim 2s ease;
     }
     @keyframes l3anim {
         0%{ top: 300px;
             left: 40%;
         }
-        33%{
+        50%{
             top: 0%;
             left: 40%;
         }
@@ -68,7 +68,7 @@
         0%{ top: 300px;
             left: 40%;
         }
-        40%{
+        57%{
             top: 0%;
             left: 40%;
         }
@@ -81,7 +81,7 @@
         0%{ top: 300px;
             left: 40%;
         }
-        50%{
+        66%{
             top: 0%;
             left: 40%;
         }
@@ -94,7 +94,7 @@
         0%{ top: 300px;
             left: 40%;
         }
-        33%{
+        50%{
             top: 0%;
             left: 40%;
         }
@@ -107,7 +107,7 @@
         0%{ top: 300px;
             left: 40%;
         }
-        40%{
+        57%{
             top: 0%;
             left: 40%;
         }
@@ -120,7 +120,7 @@
         0%{ top: 300px;
             left: 40%;
         }
-        50%{
+        66%{
             top: 0%;
             left: 40%;
         }
