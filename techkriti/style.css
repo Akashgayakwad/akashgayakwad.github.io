@@ -4,6 +4,9 @@
         position: relative;
         width: 100% !important;
     }
+    #c{
+        position: static !important;
+    }
     #l1,#l2,#l3,#r1,#r2,#r3{
         display: none;
     }
@@ -24,6 +27,115 @@
     .wrapper{
         margin-left: 0% !important;
         margin-right: 0% !important;
+    }
+}
+@media (min-width:961px){
+    #l3{
+        animation: l3anim 3s ease;
+    }
+    #l2{
+        animation: l2anim 2.5s ease;
+    }
+    #l1{
+        animation: l1anim 2s ease;
+    }
+    #r3{
+        animation: r3anim 3s ease;
+    }
+    #r2{
+        animation: r2anim 2.5s ease;
+    }
+    #r1{
+        animation: r1anim 2s ease;
+    }
+    #c{
+        animation: canim 1s ease;
+    }
+    @keyframes l3anim {
+        0%{ top: 300px;
+            left: 40%;
+        }
+        33%{
+            top: 0%;
+            left: 40%;
+        }
+        100%{
+            top: 0%;
+            left: 0%;
+        }
+    }
+    @keyframes l2anim {
+        0%{ top: 300px;
+            left: 40%;
+        }
+        40%{
+            top: 0%;
+            left: 40%;
+        }
+        100%{
+            top: 0%;
+            left: 10%;
+        }
+    }
+    @keyframes l1anim {
+        0%{ top: 300px;
+            left: 40%;
+        }
+        50%{
+            top: 0%;
+            left: 40%;
+        }
+        100%{
+            top: 0%;
+            left: 20%;
+        }
+    }
+    @keyframes r3anim {
+        0%{ top: 300px;
+            left: 40%;
+        }
+        33%{
+            top: 0%;
+            left: 40%;
+        }
+        100%{
+            top: 0%;
+            left: 78%;
+        }
+    }
+    @keyframes r2anim {
+        0%{ top: 300px;
+            left: 40%;
+        }
+        40%{
+            top: 0%;
+            left: 40%;
+        }
+        100%{
+            top: 0%;
+            left: 68%;
+        }
+    }
+    @keyframes r1anim {
+        0%{ top: 300px;
+            left: 40%;
+        }
+        50%{
+            top: 0%;
+            left: 40%;
+        }
+        100%{
+            top: 0%;
+            left: 58%;
+        }
+    }
+    @keyframes canim{
+        0%{
+            top: 300px;
+        }
+        100%{
+            top: 0%;
+        }
     }
 }
 #navmenu{
@@ -82,6 +194,7 @@
     top: 0%;
     left: 0%;
     width: 22.00%;
+    z-index: 20;
 }
 #l3 div{
         width: 100%;
@@ -105,6 +218,7 @@
     top: 0%;
     left: 10%;
     width: 22.59%;
+    z-index: 30;
 }
 #l2 div{
         width: 100%;
@@ -127,7 +241,8 @@
     position: absolute;
     top: 0%;
     left: 20%;
-    width: 23.32%;   
+    width: 23.32%;
+    z-index: 40;
 }
 #l1 div{
         width: 100%;
@@ -151,6 +266,7 @@
     top: 0%;
     left: 78%;
     width: 22%;
+    z-index: 20;
 }
 #r3 div{
         width: 100%;
@@ -174,6 +290,7 @@
     top: 0%;
     left: 68%;
     width: 22.88%;
+    z-index: 30;
 }
 #r2 div{
         width: 100%;
@@ -197,6 +314,7 @@
     top: 0%;
     left: 58%;
     width: 23.32%;
+    z-index: 40;
 }
 #r1 div{
         width: 100%;
@@ -218,6 +336,10 @@
 #center{
         position: relative;
         width: 46.5%;
+        z-index: 50;
+}
+#c{
+    position: absolute;
 }
 #center img{
             width: 100%;
