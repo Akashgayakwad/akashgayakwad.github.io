@@ -15,6 +15,7 @@
     #socialbuttons{
         position: static !important;
         grid-template-columns: repeat(4,1fr) !important;
+        grid-column-gap: 5px;
         margin: 0px 30%;
     }
     #toggle{
