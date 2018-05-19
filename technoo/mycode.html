@@ -1,0 +1,145 @@
+﻿
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+        <style type="text/css">
+               body{
+               height: 100%;
+               width: 100%;
+               background-image:url("img/alpha-bg.jpg");
+               background-repeat: no-repeat;
+               background-size: cover;
+            }
+            table{
+                text-align: center;
+                margin: 8% auto;
+}
+            .a1
+            {
+                margin-left: 250px;
+                margin-top: 100px;
+}
+           .a11
+           {
+               margin-top: 18px;
+            
+}
+
+           .clearfix
+           {
+               clear:both;
+}
+.a2
+{  
+  
+    margin-right: 21px;
+    margin-left: 250px;
+}
+
+  .parent
+  {
+      position: relative;
+   margin-left: 0px;
+  margin-top: 0px;
+}
+
+.sidenav
+{
+    height: 100%;
+    width: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #11;
+    overflow-x:hidden;
+    transition:0.5s;
+    padding-top: 60px;
+}
+.sidenav a
+{
+  padding:8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition:0.3px;
+}
+
+.sidenav .closebtn
+{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left:50px;
+}
+button{
+    background-color: #4267b2;
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 2px;
+}
+
+        </style>
+    </head>
+    <body>
+       
+              <div id="mySidenav" class="sidenav"><a herf="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            </a>
+            <a href="#">about</a>
+             <a href="#">about</a>
+              <a href="#">about</a>
+               <a href="#">about</a>
+
+        </div>
+        <span style="font-size:30px;cursor: pointer;color:#fff; position: absolute; top:12%; left: 28%" onclick="openNav()">&#9776;</span>
+        <script>
+            function openNav()
+            {
+                document.getElementById("mySidenav").style.width="250px";
+            }
+            function closeNav()
+            {
+                document.getElementById("mySidenav").style.width="0";
+            }
+            </script>
+
+       
+        <div style="text-align: center;">
+                        <img src="img/centre.png" />
+                      
+        </div>
+        <div style="text-align: center; margin-top: 2%;"><button>Sign in With Facebook</button> </div>
+       
+        <table cellpadding="10" cellspacing="10">
+                <tbody>
+                    <tr>
+                        <td rowspan="2" style="background-image: url('img/competitions.jpg'); width: 239px; background-repeat: round; vertical-align: bottom;"><span style="color: #fff; font-size: 24px; font-weight: 800;">Competitions</span></td>
+                        <td style="background-image: url('img/technocruise.jpg');width:239px; height:180px; background-repeat: round; vertical-align:bottom;"><span style="color: #fff; font-size: 24px; font-weight: 800;">Technocruise</span></td>
+
+
+                        <td rowspan="2" style="background-image: url('img/workshops.jpg');width:239px; background-repeat: round; vertical-align: bottom;"><span  style="color: #fff; font-size: 24px; font-weight: 800;">Workshop</span></td>
+                        <td style="background-image:url('img/shows.jpg');width:239px ;height:180px;vertical-align: bottom;  background-repeat: round; "><span  style="color: #fff; font-size: 24px; font-weight: 800;">Shows</span></td>
+
+                    </tr>
+                    <tr><td style="vertical-align:bottom; background-image: url('img/hospitality.jpg');width:239px;height:180px; background-repeat: round;"><span  style="color: #fff; font-size: 24px; font-weight: 800;">Hospitality</span></td>
+                    <td style="vertical-align:bottom; background-image: url('img/talks.jpg');width:239px;height:180px; background-repeat: round;"><span  style="color: #fff; font-size: 24px; font-weight: 800;">Talks</span></td></tr>
+                    <tr>
+                        <td style="vertical-align:bottom; background-image: url('img/merchandise.jpg'); width:239px; height:156px; background-repeat: round;"><span  style="color: #fff; font-size: 24px; font-weight: 800;">Merchandise</span></td>
+                        <td style="vertical-align:bottom; background-image: url('img/exhibitions.jpg'); width:239px; height:156px; background-repeat: round;"><span  style="color: #fff; font-size: 24px; font-weight: 800;">Exhibitions</span></td>
+                        <td style="vertical-align:bottom; background-image: url('img/funt.jpg'); width:239px; height:156px;background-repeat: round;"><span  style="color: #fff; font-size: 24px; font-weight: 800;">Funt</span></td>
+                        <td style="vertical-align:bottom; background-image: url('img/tosc.jpg'); width:239px; height:156px; background-repeat: round;"> <span  style="color: #fff; font-size: 24px; font-weight: 800;">Tosc</span> </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        <div class="clearfix">
+        </div>
+    </body>
+</html>
