@@ -1,5 +1,56 @@
 @media (max-width:960px){
+    
+    #competitions{
+        animation: tilesanim 0.2s ease 0s;
+    }
+    #technocruise{
+        animation: tilesanim 0.2s ease 0.2s;
+    }
+    #workshops{
+        animation: tilesanim 0.2s ease 0.4s;
+    }
+    #shows{
+        animation: tilesanim 0.2s ease 0.6s;
+    }
+    #hospitality{
+        animation: tilesanim 0.2s ease 0.8s;
+    }
+    #talks{
+        animation: tilesanim 0.2s ease 1.0s;
+    }
+    #merchandise{
+        animation: tilesanim 0.2s ease 1.2s;
+    }
+    #exhibitions{
+        animation: tilesanim 0.2s ease 1.4s;
+    }
+    #megaworld{
+        animation: tilesanim 0.2s ease 1.6s;
+    }
+    #tosc{
+        animation: tilesanim 0.2s ease 1.8s;
+    }
    
+    .wrapper{
+        animation: wrapperanim 0.5s ease-in-out 2s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+     
+    #center{
+        animation: zoomc 0.5s;
+        animation-delay: 2s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
+    
+   
+    
+    .btn img{
+        animation: iconrot 1s linear 0s 3;
+    }
+    
     #center{
         position: relative;
         width: 100% !important;
@@ -51,7 +102,72 @@
     #c{
         animation: canim 2s ease;
     }
-    @keyframes l3anim {
+    
+    #competitions{
+        animation: tilesanim 0.2s ease 4s;
+    }
+    #technocruise{
+        animation: tilesanim 0.2s ease 4.2s;
+    }
+    #workshops{
+        animation: tilesanim 0.2s ease 4.4s;
+    }
+    #shows{
+        animation: tilesanim 0.2s ease 4.6s;
+    }
+    #hospitality{
+        animation: tilesanim 0.2s ease 4.8s;
+    }
+    #talks{
+        animation: tilesanim 0.2s ease 5.0s;
+    }
+    #merchandise{
+        animation: tilesanim 0.2s ease 5.2s;
+    }
+    #exhibitions{
+        animation: tilesanim 0.2s ease 5.4s;
+    }
+    #megaworld{
+        animation: tilesanim 0.2s ease 5.6s;
+    }
+    #tosc{
+        animation: tilesanim 0.2s ease 5.8s;
+    }
+   
+    .wrapper{
+        animation: wrapperanim 0.5s ease-in-out 6s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+     
+    #center{
+        animation: zoomc 0.5s;
+        animation-delay: 6s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+    }
+    
+   
+    
+    .btn img{
+        animation: iconrot 1s linear 4s 3;
+    }
+    
+    
+    #l3 span, #l2 span, #l1 span, #r3 span, #r2 span, #r1 span{
+        animation: tabanim 1s ease 4s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+    }
+    #l3 span:hover, #l2 span:hover, #l1 span:hover, #r3 span:hover, #r2 span:hover, #r1 span:hover{
+        color:rgb(17, 108, 53);
+        font-size:20px;
+    }
+    
+}
+
+@keyframes l3anim {
         0%{ top: 300px;
             left: 40%;
         }
@@ -137,7 +253,48 @@
             top: 0%;
         }
     }
-}
+    @keyframes tilesanim{
+        0%{
+            transform: rotate3d(1, 1, 1, 0deg);
+        }
+        100%{
+            transform: rotate3d(1, 1, 1, 360deg);
+        }
+    }
+    @keyframes wrapperanim{
+        0%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(1.07);
+        }
+    }
+     @keyframes zoomc{
+        0%{
+            transform: scale(1);
+        }
+        100%{
+            transform: scale(1.2);
+        }
+    }
+    @keyframes iconrot{
+        0%{ transform:
+            transform: rotateZ(0deg);
+        }
+        100%{
+            transform: rotateZ(360deg);
+        }
+    }
+    @keyframes tabanim{
+        0%{
+            color: white;
+            font-size: 14px;
+        }
+        100%{
+            color:rgb(17, 108, 53);
+            font-size:20px;
+        }
+    }
 #navmenu{
     position: absolute;
     top: 0%;
