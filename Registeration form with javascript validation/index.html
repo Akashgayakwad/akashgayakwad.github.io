@@ -1,0 +1,76 @@
+<!doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1 user-scalable=no">
+        <title>Registeration Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-offset-3 col-sm-6 formcontainer">
+                    <div id="formheading" style="text-align: center; font-size: 25px;font-family: cursive;">
+                            <span id="1" style="color:darkblue;"><strong>R</strong></span>
+                            <span id="2" style="color:brown;"><strong>E</strong></span>
+                            <span id="3" style="color:chartreuse;"><strong>G</strong></span>
+                            <span id="4" style="color:red;"><strong>I</strong></span>
+                            <span id="5" style="color:darksalmon;"><strong>S</strong></span>
+                            <span id="6" style="color:darkgoldenrod;"><strong>T</strong></span>
+                            <span id="7" style="color:darkorange;"><strong>E</strong></span>
+                            <span id="8" style="color:crimson;"><strong>R</strong></span>
+                            <span id="9" style="color:dodgerblue;"><strong>&nbsp;</strong></span>
+                            <span id="10" style="color:fuchsia;"><strong>H</strong></span>
+                            <span id="11" style="color:forestgreen;"><strong>E</strong></span>
+                            <span id="12" style="color:red;"><strong>R</strong></span>
+                            <span id="13" style="color:chartreuse;"><strong>E</strong></span>
+                            <span id="14" style="color:darkgoldenrod;"><strong>!</strong></span>
+                    </div>
+                    <form>
+                        <div class="form-group has-feedback">
+                            <label class="control-label" for="#firstname">Firstname:</label>
+                            <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                            <input type="text" id="firstname" class="form-control" name="firstname" placeholder="Enter Your Firstname" autofocus required>
+                        </div>
+                        <div class="form-group has-feedback">
+                            <label class="control-label" for="#lastname">Lastname:</label>
+                            <input type="text" id="lastname" class="form-control" name="lastname" placeholder="Enter Your Lastname" required>
+                            <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                        </div> 
+                        <div class="form-group has-feedback">
+                            <label class="control-label" for="#age">Age:</label>
+                            <input type="number" id="age" class="form-control" name="age" min="20" placeholder="Enter Your Age(minimum age 20)" required>
+                            <span class="glyphicon glyphicon-info-sign form-control-feedback"></span>
+                        </div>
+                        <div class="form-group has-feedback">
+                            <label class="control-label" for="#email">Email:</label>
+                            <input type="email" id="email" class="form-control" name="email" placeholder="Enter Your Email Address" required>
+                            <span class="glyphicon glyphicon-home form-control-feedback"></span>
+                        </div>
+                        <div class="form-group has-feedback">
+                            <label class="control-label" for="#contactno">Phone no.:</label>
+                            <input type="number" id="contactno" class="form-control" name="contactno" placeholder="Enter Your Contact Number" required>
+                            <span class="glyphicon glyphicon-earphone form-control-feedback"></span>
+                        </div>
+                        <div class="form-group has-feedback">
+                            <label class="control-label" for="#password">Password:</label>
+                            <input type="password" id="password" class="form-control" name="password"  placeholder="Enter your new password(minimum 8 characters)" required>
+                            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                        </div>
+                        <div class="form-group has-feedback">
+                            <label class="control-label" for="#password2">Confirm Password:</label>
+                            <input type="password" id="password2" class="form-control" name="password2"  placeholder="Confirm your new password" required>
+                            <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                        </div>
+                        <center>
+                            <button type="submit" class="btn btn-lg btn-success" style="width: 100%">Register</button>
+                        </center>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="js/jquery-2.0.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</html>

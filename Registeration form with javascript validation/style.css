@@ -1,0 +1,48 @@
+.row{
+    background: linear-gradient(rgba(213, 202, 140,1) , rgba(213, 202, 140,0.6));
+}
+.formcontainer{
+    position: relative;
+    padding: 2.5em 1.5em 1em 1.5em;
+    margin: 2em auto;
+    color:black;
+    background: linear-gradient(to right, rgb(19, 160, 201) , rgb(98, 189, 190));
+    box-shadow: 15px 15px 1px 0px rgb(26, 148, 179);
+    /*border-bottom-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;*/
+}
+
+.formcontainer:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*top right bottom left*/
+    border-width: 3em 3em 0em 0em;
+    border-style: solid;
+    border-color: rgba(213, 202, 140,1) rgb(69,167, 167);
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.0);
+}
+#formheading{
+    white-space: normal;
+}
+
+form span{
+    animation: jump;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+}
+
+@keyframes jump{
+    from{
+        color:rgb(117,184,27);
+        line-height: 3em;
+    }
+    to{
+        color: rgb(165,230,77);
+        line-height: 2em;
+    }
+}
