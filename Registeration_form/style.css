@@ -1,4 +1,8 @@
+html{
+    height: 100%;
+}
 .row{
+    height: 100%;
     background: linear-gradient(rgba(213, 202, 140,1) , rgba(213, 202, 140,0.6));
 }
 .formcontainer{
@@ -27,7 +31,6 @@
 #formheading{
     white-space: normal;
 }
-
 form span{
     animation: jump;
     animation-direction: alternate;
@@ -36,6 +39,21 @@ form span{
     animation-timing-function: linear;
 }
 
+.form-group input{
+    background-color:rgb(41,37,112);
+    border: solid black 2px;
+    color:rgb(117,184,27);
+    font-size: 16px;
+    font-style: oblique;
+    font-weight:600;
+}
+.form-group input:focus{
+    background-color: aqua;
+    font-size: 20px;
+}
+label{
+    font-size: 16px;
+}
 @keyframes jump{
     from{
         color:rgb(117,184,27);
