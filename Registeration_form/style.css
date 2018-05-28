@@ -19,6 +19,7 @@ body{
     border-bottom-right-radius: 2%;
     border-bottom-left-radius: 2%;
     border-top-right-radius: 2%;
+    border-top-left-radius: 2%;
 }
 
 @media (min-width:576px){
@@ -77,16 +78,17 @@ body{
     background-color:rgb(41,37,112);
     border: solid black 2px;
     color:rgb(117,184,27);
-    font-size: 16px;
+    font-size: 12px;
     font-style: oblique;
     font-weight:600;
 }
 .form-group input:focus{
     background-color: aqua;
-    font-size: 20px;
+    font-size: 14px;
 }
 label{
-    font-size: 16px;
+    font-size: 14px;
+    font-size: 14px;
 }
 @keyframes jump{
     from{
