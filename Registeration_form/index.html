@@ -12,14 +12,15 @@
             <div class="row" style="position: relative;">
                 <div class="col-sm-offset-3 col-sm-6 formcontainer">
                     <div id="formheading">
-                       <span>Register Here!</span>
+                       <span><strong>Register</strong></span><br>
+                        <span><strong>Here!</strong></span>
                     </div>
                     <form>
                         <div id="errormessage" class="alert alert-danger"></div>
                         <div class="form-group has-feedback">
                             <label class="control-label" for="#firstname">Firstname:</label>
                             <span class="glyphicon glyphicon-user form-control-feedback"></span>
-                            <input type="text" id="firstname" class="form-control" name="firstname" placeholder="Enter Your Firstname" autofocus required>
+                            <input type="text" id="firstname" class="form-control" name="firstname" placeholder="Enter Your Firstname" required>
                         </div>
                         <div class="form-group has-feedback">
                             <label class="control-label" for="#lastname">Lastname:</label>
@@ -28,7 +29,7 @@
                         </div> 
                         <div class="form-group has-feedback">
                             <label class="control-label" for="#age">Age:</label>
-                            <input type="number" id="age" class="form-control" name="age" min="20" placeholder="Enter Your Age(minimum age 20)" required>
+                            <input type="number" id="age" class="form-control" name="age" min="20" placeholder="Enter Your Age(minimum age 20)" required novalidate>
                             <span class="glyphicon glyphicon-info-sign form-control-feedback"></span>
                         </div>
                         <div class="form-group has-feedback">
