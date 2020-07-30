@@ -13,7 +13,7 @@ $(function() {
 	
 	// Countdown
 	$('.countdown').downCount({
-		date: '07/29/2020 12:00:00',
+		date: '08/05/2020 12:00:00',
 		offset: +10
 	});			
     
